@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn {
+    font-size: 12px;
+    padding: 17px 24px;
+    border-radius: 10px;
+    border: 0px;
+    color: #0D1321;
+    background-image: linear-gradient(to right, #FFA500, #FFD447);
+    cursor: pointer;
+    margin-right: 20px;
+    box-shadow: 0 4px 20px #00000029;
+    z-index: 99999;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    background-image: none;
+}
+
+body {
+    min-width: 100vh;
+    background-image: linear-gradient(#E6E6FA, #B8E7FA);
+}
+
+header {
+    background-color: #ffff;
+}
+
+header .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    width: 87.5%;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header .nav-bar .logo {
+    font-size: 28px;
+}
+
+header .nav-bar .logo span {
+    color: #FFA500;
+}
+
+/* hero section start here */
+body .hero {
+    margin: 80px auto 120px auto;
+    width: 80.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+    box-shadow: 0 4px 20px #00000029;
+    border-radius: 16px;
+    text-align: center;
+    background-color: #E6EDF9;
+}
+
+.hero p {
+    padding: 15px;
+    width: 75%;
+}
+
+/* hero section end here */
+
+/* Footer section start here */
+footer{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center  ;
+}
+footer .footer-image *{
+    margin: 0px 10px;
+}
+@media screen and (max-width: 768px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 0px;
+    }
+}
+@media screen and (max-width: 480px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 0px;
+    }
+}
+/* Footer section end here */
